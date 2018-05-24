@@ -1,6 +1,6 @@
 # 自定义事件和变量
 
-#### 自定义事件
+### 自定义事件
 
 手动发送一个自定义事件。在添加所需要发送的事件代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置事件以及事件级变量。
 
@@ -21,14 +21,19 @@ gio('track', eventName: string, properties: object)
 
 ```javascript
 // 假设初始化后把 gio 对象放在 App 的 globalData 里面
-getApp().globalData.gio('track', 'clickBanner', { 
-  id: movie.id, 
-  title: movie.title, 
-  index: e.currentTarget.dataset.index 
-});
+// 在 Page 的 clickBanner 函数里添加以下代码
+Page({
+  clickBanner(e) {
+    getApp().globalData.gio('track', 'clickBanner', { 
+      id: movie.id, 
+      title: movie.title, 
+      index: e.currentTarget.dataset.index 
+    });
+  }
+})
 ```
 
-#### 用户级变量
+### 用户级变量
 
 给注册用户附上额外的信息，便于后续做用户信息相关分析。在添加所需要设置的用户变量的代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置用户级变量。
 
@@ -56,7 +61,7 @@ getApp().globalData.gio('setPeople', {
 });
 ```
 
-#### 页面级变量
+### 页面级变量
 
 给当前页面附上更多的页面信息，可以作为维度拆分数据做分析。设置了页面级变量以后，这个页面的指标以及这个页面的行为指标，都可以继承使用这些维度信息做分析。在添加所需要设置的页面变量的代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置页面级变量。
 
@@ -76,10 +81,16 @@ gio('setPage', properties: object)
 
 ```javascript
 // 假设初始化后把 gio 对象放在 App 的 globalData 里面
-getApp().globalData.gio('setPage', { 
-   pageName: '电影列表页', 
-   type: this.data.type
-});
+// 推荐在 Page#onShow 处理这个事件
+// 下面假设我在 GrowingIO 后台已经配置了两个页面级变量 pageName 和 type
+Page({
+  onShow() {
+    getApp().globalData.gio('setPage', { 
+      pageName: '电影列表页', 
+      type: this.data.type
+    });
+  }
+}
 ```
 
 #### 转化变量
