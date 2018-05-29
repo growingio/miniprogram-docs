@@ -17,7 +17,7 @@ wx.request({
     var openid = res.data.openid;
     var unionid = res.data.unionid;
     ...
-    gio("identify", res.data.openid, res.data.unionid)
+    gio('identify', res.data.openid, res.data.unionid)
 })
 ```
 
@@ -27,13 +27,13 @@ wx.request({
 
 #### 设置微信用户信息
 
-当用户在你的小程序上绑定微信信息后，可以通过 `setWeixin` 接口设置微信用户信息，后续在 GrowingIO 中分析这个数据。示例代码如下，
+当用户在你的小程序上绑定微信信息后，可以通过 `setVisitor` 接口设置微信用户信息，后续在 GrowingIO 中分析这个数据。示例代码如下，
 
 ```javascript
 wx.getUserInfo({ 
   success: res => 
     ...
-    gio(‘setWeixin‘, res.userInfo);
+    gio('setVisitor', res.userInfo);
 })
 ```
 
