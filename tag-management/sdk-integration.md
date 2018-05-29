@@ -5,7 +5,7 @@
 下载 gio-minp.js 文件
 
 ```bash
-$ curl https://assets.growingio.com/gio-minp.js
+$ curl https://assets.growingio.com/gio-minp.js -o gio-minp.js
 ```
 
 当下载到 gio-minp.js 文件以后，把文件放在微信小程序项目里，比如 utils 目录下。下面会假设 SDK 文件放在 utils 目录下。
@@ -23,9 +23,10 @@ gio('init', '你的 GrowingIO 项目ID', '你的微信小程序的 AppID', { ver
 建议每次发布小程序新版本的时候，更新一下版本号 version，可以在 GrowingIO 分析不同版本的数据。除了 `version` 之外，还有以下额外参数可以使用。
 
 | 参数 | 值 | 解释 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | forceLogin | true \| false | 你的小程序是否强制要求用户登陆微信获取 openid，默认 false |
 | debug | true \| false | 是否开启调试模式，可以看到采集的数据，默认 false |
+| version | string | 你的小程序的版本号 |
 
 {% hint style="info" %}
 forceLogin 是一个需要特别注意的参数。GrowingIO 默认会在小程序里面设置用户标识符，存储在微信 Storage 里面。这个用户标识符潜在可能会被`clearStorage` 清除掉，所以有可能不同的用户标识符对应同一个微信里的 `openid`。如果你的微信小程序在用户打开后会去做登陆并且获取 `openid` 和/或 `unionid`，强烈建议设置 `forceLogin` 为 true。当 forceLogin 为 true 的时候，用户标识符会使用 openid。具体集成示例：
