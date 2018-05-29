@@ -21,8 +21,8 @@
 tap 事件是手指触摸后马上离开时触发的事件。当 wxml 中的 view 绑定了 bindtap 事件以后，在事件处理函数执行的时候，SDK 会自动采集 tap 事件，发送数据包含但不限于以下信息：点击事件时间、事件发生所在页面、点击控件相关信息。比如如下，
 
 ```markup
-<view data-title="复仇者联盟3" data-index="1" bindtap='clickMovie'>
-  <image src="IMAGE—URL" mode="aspectFill"/>
+<view data-title='复仇者联盟3' data-index='1' bindtap='clickMovie'>
+  <image src='IMAGE—URL' mode='aspectFill'/>
   <text>复仇者联盟3</text>
 </view>
 ```
@@ -36,8 +36,8 @@ tap 事件是手指触摸后马上离开时触发的事件。当 wxml 中的 vie
 longpress 事件是手指触摸后，超过350ms再离开时触发的事件。当 wxml 的 view 绑定了 bindlongpress 事件以后，在事件处理函数执行的时候，SDK 会自动采集 longpress 事件，发送数据包含但不限于以下信息：点击事件时间、事件发生所在页面、点击控件相关信息。比如如下，
 
 ```markup
-<view data-title="复仇者联盟3" data-index="1" bindlongpress='clickMovie'>
-  <image src="IMAGE—URL" mode="aspectFill"/>
+<view data-title='复仇者联盟3' data-index='1' bindlongpress='clickMovie'>
+  <image src='IMAGE—URL' mode='aspectFill'/>
   <text>复仇者联盟3</text>
 </view>
 ```
@@ -51,15 +51,15 @@ longpress 事件是手指触摸后，超过350ms再离开时触发的事件。�
 change 事件是针对 checkbox, radio, picker-view 这些控件，当选择项发生改变时触发的事件。当 wxml 的 view 绑定了 bingchange 事件以后，在事件处理函数执行的时候，SDK 会自动采集 change 事件，发送数据包含但不限于以下信息：选择事件的发生时间、事件发生所在页面、选择项的内容相关信息。比如如下，
 
 ```markup
-<checkbox-group bindchange="checkboxChange">
-  <label class="checkbox">
-    <checkbox value="GrowingIO" checked=“true"/> GrowingIO
+<checkbox-group bindchange='checkboxChange'>
+  <label class='checkbox'>
+    <checkbox value='GrowingIO' checked='true' /> GrowingIO
   </label>
-  <label class="checkbox">
-    <checkbox value="Tencent" checked=“false"/> 腾讯小程序分析工具
+  <label class='checkbox'>
+    <checkbox value='Tencent' checked='false' /> 腾讯小程序分析工具
   </label>
-  <label class="checkbox">
-    <checkbox value="Google" checked=“false"/> Google Analytics
+  <label class='checkbox'>
+    <checkbox value='Google' checked='false' /> Google Analytics
   </label>
 </checkbox-group>
 ```
@@ -71,12 +71,12 @@ change 事件是针对 checkbox, radio, picker-view 这些控件，当选择项�
 confirm 事件是对于 input 和 textarea 控件，当输入完成后触发的事件。当 wxml 的 view 绑定了 bindconfirm 事件以后，在事件处理函数执行的时候，SDK 会自动采集 confirm 事件，发送数据包含但不限于以下信息：输入事件的发生时间、事件发生所在页面。如果设置了要采集内容，则也会包含输入的内容。比如如下，
 
 ```text
-<input class="new-todo" 
-       value="{{ input }}" 
-       placeholder="Anything here..." 
-       data-growing-track="true" 
-       bindinput="inputChangeHandle" 
-       bindconfirm="addTodoHandle" 
+<input class='new-todo'
+       value='{{ input }}'
+       placeholder='Anything here...'
+       data-growing-track='true'
+       bindinput='inputChangeHandle'
+       bindconfirm='addTodoHandle'
 />
 ```
 
