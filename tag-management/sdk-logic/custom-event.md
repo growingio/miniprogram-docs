@@ -33,14 +33,14 @@ Page({
 })
 ```
 
-### 用户级变量
+### 访问用户变量
 
-给注册用户附上额外的信息，便于后续做用户信息相关分析。在添加所需要设置的用户变量的代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置用户级变量。
+给访问用户\(未注册你的服务的账号的用户\)附上额外的信息，便于后续做用户信息相关分析。在添加所需要设置的访问用户变量的代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置访问用户级变量。
 
 接口定义：
 
 ```text
-gio('setPeople', properties: object)
+gio('setVisitor', properties: object)
 ```
 
 参数说明：
@@ -53,7 +53,34 @@ gio('setPeople', properties: object)
 
 ```javascript
 // 假设初始化后把 gio 对象放在 App 的 globalData 里面
-getApp().globalData.gio('setPeople', { 
+// 比如在针对不同的用户做某个 Campaign 的 A/B 测试
+getApp().globalData.gio('setVisitor', { 
+  campaign_id: 3, 
+  campaign_group: 'A 组用户'
+});
+```
+
+### 注册用户变量
+
+给注册用户附上额外的信息，便于后续做用户信息相关分析。在添加所需要设置的注册用户变量的代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置注册用户级变量。
+
+接口定义：
+
+```text
+gio('setUser', properties: object)
+```
+
+参数说明：
+
+| 参数名称 | 参数类型 | 是否必须 | 说明 |
+| --- | --- |
+| properties | object | 是 | 用户级变量，用户额外的信息参数 |
+
+示例：
+
+```javascript
+// 假设初始化后把 gio 对象放在 App 的 globalData 里面
+getApp().globalData.gio('setUser', { 
   age: 30, 
   level: '高级用户', 
   company: 'GrowingIO', 
