@@ -2,7 +2,7 @@
 
 * [GrowingIO 小程序分析介绍](README.md)
 * [小程序分析介绍](introduction.md)
-* 指标体系
+* [指标体系](tag-management/README.md)
   * [添加小程序追踪代码](tag-management/sdk-integration.md)
   * [SDK 采集数据和逻辑](tag-management/sdk-logic/README.md)
     * [无埋点采集事件](tag-management/sdk-logic/autotrack.md)
@@ -12,8 +12,10 @@
   * [用户画像分析](dashboard-overview/user-demographic.md)
   * [页面流量和质量分析](dashboard-overview/page-analysis.md)
   * [用户留存分析](dashboard-overview/retention-analysis.md)
-* 指标圈选定义
-* 使用分析功能
+* [指标圈选定义](metric-definition/README.md)
+  * [页面指标定义](metric-definition/page-metric.md)
+  * [行为指标定义](metric-definition/action-metric.md)
+* [使用分析功能](data-analytics/README.md)
   * [事件分析](data-analytics/event-analysis.md)
   * [漏斗分析](data-analytics/funnel-analysis.md)
   * [留存分析](data-analytics/retention-analysis.md)
