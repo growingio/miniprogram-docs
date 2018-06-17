@@ -3,6 +3,7 @@
 * [GrowingIO 小程序分析介绍](README.md)
 * [小程序分析介绍](introduction.md)
 * [指标体系](tag-management/README.md)
+  * [创建 GrowingIO 项目](tag-management/setup-project.md)
   * [添加小程序追踪代码](tag-management/sdk-integration.md)
   * [SDK 采集数据和逻辑](tag-management/sdk-logic/README.md)
     * [无埋点采集事件](tag-management/sdk-logic/autotrack.md)
