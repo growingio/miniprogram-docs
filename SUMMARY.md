@@ -12,7 +12,7 @@
   * [增长指标](dashboard-overview/overallgrowth_metrics.md)
   * [获客场景](dashboard-overview/acquisition_scene_anaysis.md)
   * [分享场景](dashboard-overview/fen-xiang-chang-jing.md)
-  * [页面流量和质量分析](dashboard-overview/page-analysis.md)
+  * [页面分析](dashboard-overview/page-analysis.md)
   * [用户画像分析](dashboard-overview/user-demographic.md)
   * [用户留存分析](dashboard-overview/retention-analysis.md)
 * [指标圈选定义](metric-definition/README.md)
