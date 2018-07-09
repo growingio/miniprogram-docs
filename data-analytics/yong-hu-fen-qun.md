@@ -28,7 +28,7 @@
 
    ​![](https://docs.growingio.com/segmentation_v2/%20%E9%80%89%E6%8B%A9%E7%94%A8%E6%88%B7%20ID%E7%B1%BB%E5%9E%8B.png)​
 
-每个分群都是基于特定的ID类型得到的：登录用户ID 或 访问用户ID。如何判断您创建的分群是哪种ID类型？
+每个分群都是基于特定的ID类型得到的：[登录用户ID](https://growingio.gitbook.io/miniprogram/tag-management/sdk-logic/sdk-gao-ji-she-zhi-11#she-zhi-zhu-ce-yong-hu-id) 或 访问用户ID。如何判断您创建的分群是哪种ID类型？
 
 1. 通过漏斗或者留存下钻创建的分群：会继承对应漏斗或留存的用户ID类型
 2. 规则创建的分群：创建时选择的用户ID类型
