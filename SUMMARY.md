@@ -16,6 +16,7 @@
   * [页面分析](dashboard-overview/page-analysis.md)
   * [错误分析](dashboard-overview/retention-analysis.md)
   * [用户画像](dashboard-overview/user-demographic.md)
+  * [实时](dashboard-overview/shi-shi.md)
 * [指标圈选定义](metric-definition/README.md)
   * [页面指标定义](metric-definition/page-metric.md)
   * [行为指标定义](metric-definition/action-metric.md)
