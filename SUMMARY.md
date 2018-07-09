@@ -19,9 +19,10 @@
 * [指标圈选定义](metric-definition/README.md)
   * [页面指标定义](metric-definition/page-metric.md)
   * [行为指标定义](metric-definition/action-metric.md)
-* [使用分析功能](data-analytics/README.md)
+* [高级分析功能](data-analytics/README.md)
   * [渠道跟踪](data-analytics/channel-tracking.md)
   * [事件分析](data-analytics/event-analysis.md)
   * [漏斗分析](data-analytics/funnel-analysis.md)
   * [留存分析](data-analytics/retention-analysis.md)
+  * [用户分群](data-analytics/yong-hu-fen-qun.md)
 
