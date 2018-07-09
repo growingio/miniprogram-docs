@@ -10,7 +10,7 @@
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 在代码集成页面，选择“**小程序**“平台，输入**应用名称**和**小程序 AppID**，点击下一步。
 
