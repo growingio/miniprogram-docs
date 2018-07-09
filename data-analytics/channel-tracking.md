@@ -26,6 +26,8 @@
 
 以现在很常用文章内二维码获客方式为例，我们在公众号关于增长的内容里放了一个小程序链接二维码，可以让用户直接扫一扫打开。生成二维码的实际链接如下：
 
+
+
 ```text
 pages/index/index?utm_source=wechat_articel&utm_content=618Growth
 ```
