@@ -13,7 +13,7 @@
   * [用户画像分析](dashboard-overview/user-demographic.md)
   * [页面流量和质量分析](dashboard-overview/page-analysis.md)
   * [用户留存分析](dashboard-overview/retention-analysis.md)
-  * [获客场景](dashboard-overview/huo-ke-chang-jing.md)
+  * [获客场景](dashboard-overview/useracquisition.md)
 * [指标圈选定义](metric-definition/README.md)
   * [页面指标定义](metric-definition/page-metric.md)
   * [行为指标定义](metric-definition/action-metric.md)
