@@ -9,7 +9,7 @@
     * [无埋点采集事件](tag-management/sdk-logic/autotrack.md)
     * [自定义事件和变量](tag-management/sdk-logic/custom-event.md)
 * [小程序基础数据概况](dashboard-overview/README.md)
-  * [访问数据和趋势](dashboard-overview/visitor-trends.md)
+  * [增长指标](dashboard-overview/visitor-trends.md)
   * [用户画像分析](dashboard-overview/user-demographic.md)
   * [页面流量和质量分析](dashboard-overview/page-analysis.md)
   * [用户留存分析](dashboard-overview/retention-analysis.md)
