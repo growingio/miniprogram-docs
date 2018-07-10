@@ -9,6 +9,7 @@
     * [SDK 微信用户属性设置](tag-management/sdk-logic/sdk-gao-ji-she-zhi-11.md)
     * [无埋点采集事件](tag-management/sdk-logic/autotrack.md)
     * [自定义事件和变量](tag-management/sdk-logic/custom-event.md)
+  * [小程序数据校验Debugger](tag-management/xiao-cheng-xu-shu-ju-xiao-yan-debugger.md)
 * [小程序基础数据概况](dashboard-overview/README.md)
   * [增长指标](dashboard-overview/overallgrowth_metrics.md)
   * [获客场景](dashboard-overview/acquisition_scene_anaysis.md)
