@@ -23,7 +23,7 @@
 
 如果在 SDK 集成的时候设置了微信用户变量，那么可以在图中得到过去 7 天的使用用户的性别分布；微信用户变量中，常见的值为：男性、女性、未知（表示用户没有设置性别值）。
 
-如果出现大量的N/A，表示GrowingIO没有获取到用户设置的微信性别属性。常见的情况有这么几种：1没有设置用户；请[参考SDK采集数据逻辑](../tag-management/sdk-logic/#she-zhi-wei-xin-yong-hu-xin-xi)，来设置微信用户的变量；2小程序不强制读取微信用户设置的信息，用户未授权小程序读自己的内容设置。
+如果出现大量的N/A，表示GrowingIO没有获取到用户设置的微信性别属性。常见的情况有这么几种：1没有设置用户；请[参考SDK微信用户属性设置](https://growingio.gitbook.io/miniprogram/~/edit/drafts/-LH1kFvlqMstbSQRa8Ql/tag-management/sdk-logic/sdk-gao-ji-she-zhi-11)，来设置微信用户的变量；2小程序不强制读取微信用户设置的信息，用户未授权小程序读自己的内容设置。
 
 ### 用户城市
 
