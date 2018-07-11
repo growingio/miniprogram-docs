@@ -1,5 +1,17 @@
 # 自定义事件和变量
 
+### 预置自定义事件 {#track-event}
+
+GrowingIO预置了两个小程序的标准自定义事件，分享到群聊或好友信息和程序错误。接入SDK即可以使用。
+
+**微信小程序分享到好友或群聊信息**
+
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LGNxeGABUADKiTWTaEM%2F-LH66a23TIvbEtQOPKyt%2F-LH675ymMloYtj1u3JVJ%2Fimage.png?alt=media&token=025a5cfb-90eb-45ee-aa58-767c0380bae1)
+
+**程序错误**
+
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LGNxeGABUADKiTWTaEM%2F-LH66a23TIvbEtQOPKyt%2F-LH67LAaMuVbR_KxSYVc%2Fimage.png?alt=media&token=0708739e-4cae-4315-b633-e9aeb2e25ca2)
+
 ### 自定义事件 {#track-event}
 
 手动发送一个自定义事件。在添加所需要发送的事件代码之前，需要在 GrowingIO 产品的`自定义事件和变量`管理页面配置事件以及事件级变量。
