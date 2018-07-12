@@ -6,7 +6,7 @@
   * [SDK集成前工作](tag-management/setup-project.md)
   * [SDK标准接入指南](tag-management/sdk-integration.md)
   * [SDK高级设置&数据采集配置](tag-management/sdk-logic/README.md)
-    * [SDK 微信用户属性设置](tag-management/sdk-logic/wechat_user_atrributes_setting.md)
+    * [SDK 微信用户属性设置](tag-management/sdk-logic/wechat_user_attributes_setting.md)
     * [无埋点采集事件](tag-management/sdk-logic/autotrack.md)
     * [自定义事件和变量](tag-management/sdk-logic/custom-event.md)
   * [小程序数据校验Debugger](tag-management/xiao-cheng-xu-shu-ju-xiao-yan-debugger.md)

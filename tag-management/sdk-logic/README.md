@@ -8,7 +8,7 @@ GrowingIO 的小程序 SDK 支持两种采集数据：无埋点自动采集事�
 
 结合无埋点事件和自定义事件来搭建一套完善的指标体系，可以为后续的分析优化提供坚实的基础。
 
-{% page-ref page="wechat\_user\_atrributes\_setting.md" %}
+{% page-ref page="wechat\_user\_attributes\_setting.md" %}
 
 {% page-ref page="autotrack.md" %}
 
