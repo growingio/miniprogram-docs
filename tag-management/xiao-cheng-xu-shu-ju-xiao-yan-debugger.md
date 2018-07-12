@@ -12,7 +12,7 @@
 
 ![](../.gitbook/assets/image%20%2816%29.png)
 
-在小程序Debugger页面，会展示目前接入Debugger实时传输数据的小程序用户，以及部分用户微信信息、设备、操作系统的信息。但是部分信息的展示，需要在SDK中设置微信用户属性设置。详情请见[SDK 微信用户属性设置](sdk-logic/sdk-gao-ji-she-zhi-11.md)。
+在小程序Debugger页面，会展示目前接入Debugger实时传输数据的小程序用户，以及部分用户微信信息、设备、操作系统的信息。但是部分信息的展示，需要在SDK中设置微信用户属性设置。详情请见[SDK 微信用户属性设置](sdk-logic/wechat_user_atrributes_setting.md)。
 
 ![](../.gitbook/assets/image.png)
 
