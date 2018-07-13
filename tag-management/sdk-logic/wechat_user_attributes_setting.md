@@ -19,9 +19,7 @@ wx.request({
 })
 ```
 
-如果你希望直接用 openid 来替换 GrowingIO 自行设置的用户标识符，请在初始化的时候指定 forceLogin 参数为 true。详见
-
-{% page-ref page="../sdk-integration.md" %}
+如果你希望直接用 openid 来替换 GrowingIO 自行设置的用户标识符，请在初始化的时候指定 forceLogin 参数为 true。详见[SDK标准接入指南](../sdk-integration.md)。
 
 ### 设置微信用户信息
 
