@@ -30,19 +30,6 @@ gio('init', '你的 GrowingIO 项目ID', '你的微信小程序的 AppID', { ver
 | debug | true \| false | 是否开启调试模式，可以看到采集的数据，默认 false |
 | version | string | 你的小程序的版本号 |
 
-{% hint style="info" %}
-forceLogin 是一个需要特别注意的参数。GrowingIO 默认会在小程序里面设置用户标识符，存储在微信 Storage 里面。这个用户标识符潜在可能会被`clearStorage` 清除掉，所以有可能不同的用户标识符对应同一个微信里的 `openid`。如果你的微信小程序在用户打开后会去做登陆并且获取 `openid` 和/或 `unionid`，强烈建议设置 `forceLogin` 为 true。当 forceLogin 为 true 的时候，用户标识符会使用 openid。具体集成示例：
-
-
-
-```javascript
-gio('init', '你的 GrowingIO 项目ID', '你的微信小程序的 AppID', { version: '1.0', forceLogin: true });
-...
-// 当获取到 openid 后，调用以下方法
-gio("identify", openid, unionid);
-```
-{% endhint %}
-
 ### 特别注意1
 
 forceLogin 是一个需要特别注意的参数。GrowingIO 默认会在小程序里面设置用户标识符，存储在微信 Storage 里面。这个用户标识符潜在可能会被clearStorage 清除掉，所以有可能不同的用户标识符对应同一个微信里的 openid。如果你的微信小程序在用户打开后会去做登陆并且获取 openid 和/或 unionid，强烈建议设置 forceLogin 为 true。当 forceLogin 为 true 的时候，用户标识符会使用 openid。具体集成示例：
