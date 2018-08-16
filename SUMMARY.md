@@ -21,6 +21,7 @@
 * [指标圈选定义](metric-definition/README.md)
   * [页面指标定义](metric-definition/page-metric.md)
   * [行为指标定义](metric-definition/action-metric.md)
+  * [交互式圈选](metric-definition/jiao-hu-shi-quan-xuan.md)
 * [高级分析功能](data-analytics/README.md)
   * [渠道跟踪](data-analytics/channel-tracking.md)
 

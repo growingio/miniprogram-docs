@@ -25,7 +25,7 @@ gio('init', '你的 GrowingIO 项目ID', '你的微信小程序的 AppID', { ver
 建议每次发布小程序新版本的时候，更新一下版本号 version，可以在 GrowingIO 分析不同版本的数据。除了 `version` 之外，还有以下额外参数可以使用。
 
 | 参数 | 值 | 解释 |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- |
 | forceLogin | true \| false | 你的小程序是否强制要求用户登陆微信获取 openid，默认 false |
 | debug | true \| false | 是否开启调试模式，可以看到采集的数据，默认 false |
 | version | string | 你的小程序的版本号 |
