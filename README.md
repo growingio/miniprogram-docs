@@ -10,7 +10,7 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 
 针对小程序数据分析，GrowingIO 提供了以下功能：
 
-### ​[数据采集](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/tag-management)​ {#shu-ju-cai-ji}
+### ​[数据采集](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/tag-management)​ <a id="shu-ju-cai-ji"></a>
 
 注册GrowingIO账号，进行应用管理。
 
@@ -18,15 +18,15 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 
 高级配置，进一步精细化满足自定义化数据采集需求。
 
-### ​[指标定义](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/metric-definition)​ {#zhi-biao-ding-yi}
+### ​[指标定义](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/metric-definition)​ <a id="zhi-biao-ding-yi"></a>
 
 通过“圈选”快速定义页面、元素等关键用户行为，满足您产品运营**轻松获得数据洞察**、**快速迭代**的增长需求。
 
-### ​[小程序基础数据概览](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/dashboard-overview)​ {#xiao-cheng-xu-ji-chu-shu-ju-gai-lan}
+### ​[小程序基础数据概览](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/dashboard-overview)​ <a id="xiao-cheng-xu-ji-chu-shu-ju-gai-lan"></a>
 
 **2分钟接入SDK**，无需更多操作，**1小时**即可**获得**增长、获客、分享、用户、产品的**数据洞察**。
 
-### ​[高级分析功能](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/data-analytics)​ {#gao-ji-fen-xi-gong-neng}
+### ​[高级分析功能](/miniprogram/~/drafts/-LGy_1hmiwBrQYfRejJr/primary/data-analytics)​ <a id="gao-ji-fen-xi-gong-neng"></a>
 
 使用渠道跟踪、事件分析、漏斗分析、留存分析、用户分群和用户细查，提升投放、产品迭代、用户运营的转化效率。
 

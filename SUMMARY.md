@@ -24,4 +24,6 @@
   * [交互式圈选](metric-definition/jiao-hu-shi-quan-xuan.md)
 * [高级分析功能](data-analytics/README.md)
   * [渠道跟踪](data-analytics/channel-tracking.md)
+* [小程序 SDK 备份](xiao-cheng-xu-sdk-bei-fen/README.md)
+  * [mpvue+ 第三方插件 添加代码](xiao-cheng-xu-sdk-bei-fen/mpvue+-di-san-fang-cha-jian-tian-jia-dai-ma.md)
 
